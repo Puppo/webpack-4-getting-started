@@ -9,6 +9,9 @@ module.exports = {
         profile: './src/profile.js'
     },
     devtool: 'inline-source-map',
+    devServer: {
+        contentBase: '/dist'
+    },
     plugins: [
         new CleanWebpackPlugin(),
         new HtmlWebpackPlugin({})
