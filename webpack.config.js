@@ -8,6 +8,7 @@ module.exports = {
         app: './src/index.js',
         profile: './src/profile.js'
     },
+    devtool: 'inline-source-map',
     plugins: [
         new CleanWebpackPlugin(),
         new HtmlWebpackPlugin({})
